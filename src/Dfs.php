@@ -59,11 +59,13 @@ class Dfs
    * @param array $new_tree - new tree we want to traverse
    */
   public function setTree($new_tree){
-      $this->tree = $new_tree;
+    $this->resetValues();
+    $this->tree = $new_tree;
+    $this->setCurrWorkingNode(array_keys($new_tree)[0]);
   }
 
   /**
-   * [setCurrWorkingNode description]
+   * setCurrWorkingNode description
    * @param [type] $curr_working_node [description]
    */
   public function setCurrWorkingNode($curr_working_node){
