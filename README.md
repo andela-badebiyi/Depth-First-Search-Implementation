@@ -2,8 +2,8 @@
 Implementation of depth first search algorithm in PHP. This was written mainly for education purposes.
 
 ## Usage
--- clone repo
--- include package in application
+- clone repo
+- include package in application
 ```php
   // the tree you want to traverse
   $tree = [
