@@ -23,7 +23,7 @@ Implementation of depth first search algorithm in PHP. This was written mainly f
 
   // should print array of [1, 8, 2, 3, 6, 7]
   print_r($results);
-```php
+```
 
 ## Tests
 From the root directory run `phpunit`
